@@ -52,5 +52,7 @@ public class InertAutomation {
 			System.out.println(allTagsList.get(i).getAttribute("href"));
 			System.out.println(allTagsList.get(i).getText());
 		}
+		
+		driver.quit();
 	}
 }
