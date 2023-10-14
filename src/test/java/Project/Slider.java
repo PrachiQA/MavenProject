@@ -25,7 +25,7 @@ public class Slider {
 		// Find element
 		WebElement slider = driver.findElement(By.xpath("//div[@id='slider']"));
 		// perform drag and drop action
-		actions.dragAndDropBy(slider, 50, 50).perform();
+		actions.dragAndDropBy(slider, 50, 0).perform();
 		// Close browser
 		driver.quit();
 	}
