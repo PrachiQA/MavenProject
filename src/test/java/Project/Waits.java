@@ -19,7 +19,7 @@ public class Waits {
 		WebDriverManager.chromedriver().setup();
 		// Instantiate chromedriver
 		ChromeDriver driver = new ChromeDriver();
-		// Get droppable Jquery URL
+		// Get ebay URL
 		driver.get("https:\\\\www.eBay.com");
 		// Maximize window
 		driver.manage().window().maximize();
